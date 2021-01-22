@@ -9,7 +9,7 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
   return (
     <div className="container">
       <strong>{name}</strong>
-      <p>Nothing new here</p>
+      <p>Under construction</p>
     </div>
   );
 };

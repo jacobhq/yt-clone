@@ -8,8 +8,8 @@ const slideOpts = {
   speed: 400
 };
 
-export const SlidesExample: React.FC = () => (
-  <IonContent>
+export const Welcome: React.FC = () => (
+  <IonContent fullscreen>
     <IonSlides pager={true} options={slideOpts}>
       <IonSlide>
         <h1>Slide 1</h1>
@@ -23,3 +23,5 @@ export const SlidesExample: React.FC = () => (
     </IonSlides>
   </IonContent>
 );
+
+export default Welcome;

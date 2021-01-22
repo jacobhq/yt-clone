@@ -10,7 +10,7 @@ import {
   IonTabs
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { ellipse, square, homeOutline, home, albumsOutline, albums } from 'ionicons/icons';
+import { ellipse, home, albums } from 'ionicons/icons';
 import Welcome from './pages/welcome'
 import Tab1 from './pages/Tab1';
 import Tab2 from './pages/Tab2';
